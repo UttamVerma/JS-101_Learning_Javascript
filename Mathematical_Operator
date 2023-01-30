@@ -1,0 +1,52 @@
+//You need to print "Masai School" on a line, and print "A Transformation in Education" on a new line.
+
+console.log("Masai School");
+console.log("A Transformation in Education");
+
+
+
+//You are given a number stored in a variable, with the name"number"
+//Multiply the number stored in the variablenumberby 50, and print the result obtained
+
+console.log(number*50);
+
+
+
+//You are given six numbers, stored in variables with the following names
+// one, two, three, four, five, six
+//Print the product of all the six numbers
+
+console.log(one*two*three*four*five*six);
+
+
+//You are given five numbers stored in variables with the following names
+//one, two, three, four, five
+//Find the sum of the five values, and print it
+
+console.log(one+two+three+four+five);
+
+
+
+//Given a number N, find its cube.
+
+console.log(N**3);
+
+
+//You are given three numbers, stored in variables with the following names
+//one, two, three
+//You have to find the square of the three numbers, and find the sum of their square values
+
+one=one**2;
+two=two**2;
+three=three**2;
+let x = one+two+three;
+console.log(x);
+
+
+//You are given a number X. Find the value of X, if
+//1. X is multiplied by 3
+//2. 10 is added to the new value of X.
+
+X=X*3;
+X=X+10;
+console.log(X);
