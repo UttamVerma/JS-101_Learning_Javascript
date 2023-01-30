@@ -1,0 +1,63 @@
+//Print "Masai School" in the console followed by "A Transformation in Education" in next line
+
+console.log("Masai School");
+console.log("A Transformation in Education");
+
+
+
+//Define a variable called name with your Name as the assigned value
+//Print the value stored in the variable name
+//Change the variable to store your father's name
+//Print the value stored in the variable name
+//Change the variable again to store your mother's name.
+//Print the value stored in the variable name
+
+
+
+let name = "UttamVerma";
+console.log(name);
+
+name = "Ashok Kumar";
+console.log(name);
+
+name = "Anita Verma";
+console.log(name);
+
+
+
+//Create a variable name to store your name
+//Create a variable age to store your age
+//Print the values stored in the variable on one line followed by the type of the variable in the next line
+
+let name = "UttamVerma";
+let age = 18;
+console.log(name);
+console.log(age);
+
+
+//Store the name, school, grade, section, rollno and the marks scored by the student in 3 subjects
+//Print the report card of the student (You can make it look nice by using some keyboard symbols )
+
+
+
+
+
+let name="'*'Uttam Verma'*'',";
+let school="***D.A.V. Public Sr. Sec. School***";
+let grade="GRADE=:.*8*.,";
+let section="Section =: 'C',";
+let rollno="Rollno := *'37'*,";
+let marks="Science=: __--**62**--__";
+let marks1="Maths=: +-_68_-+";
+let marks2="Hindi=: ^*71*^";
+let Rep="Report Card";
+console.log(Rep);
+
+
+console.log(school);
+console.log(name,grade,section,rollno);
+console.log(marks);
+console.log(marks1);
+console.log(marks2);
+
+
