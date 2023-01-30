@@ -1,0 +1,85 @@
+//Given the year of birth, if the age is between 13 and 19 (both included) print Teenage and in between 20 and 29 (both included) print Twenties
+
+let age = 29;
+if (age>=19 && age<=13){
+  console.log("teenage");
+}
+else if(age>=20 && age<=29){
+  console.log("twenties");
+}
+
+
+
+
+//Given any character, if it is a vowel print "Vowel"
+
+let vow = "v";
+if(vow=="a" || vow=="e" || vow=="i" || vow=="o" || vow=="u"){
+  console.log("vowel");
+}
+else{
+  console.log("not a vowel");
+}
+
+
+
+
+//Given and character if it is a consonant print "Consonant"
+
+let c="y";
+if(!(c=="a"||c=="e"||c=="i"||c=="o"||c=="u")){
+  console.log("Consonant")
+}
+else{
+  console.log("Not a Consonant");
+}
+
+
+
+
+// Given 3 numbers (all different values), print which is greatest
+
+let a = 20;
+let b = 30;
+let c = 60;
+if ((a>b) && (a>c)){
+  console.log("a is largest");
+}
+else if((b>a) && (b>c)){
+  console.log("b is largest");
+}
+else if((c>a) && (c>b)){
+  console.log("c is largest");
+}
+
+
+
+
+// Given the days of the week in short format "Sun", "Mon" ... print in long format "Sunday", "Monday", ...
+
+let day = "sat";
+switch(day){
+  case "mon":
+    console.log("Monday");
+    break;
+  case "tue":
+    console.log("Tuesday");
+    break;
+  case "wed":
+    console.log("Wednesday");
+    break;
+  case "thur":
+    console.log("Thursday");
+    break;
+  case "fri":
+    console.log("Friday");
+    break;
+  case "sat":
+    console.log("Saturday");
+    break;
+  case "sun":
+    console.log("Sunday");
+    break;
+  default:
+    console.log("Wrong Value Entered");
+}
