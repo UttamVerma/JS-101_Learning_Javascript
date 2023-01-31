@@ -1,0 +1,209 @@
+// Print Masai School 
+Description
+
+You are given a number stored in a variable with the namenum
+
+You have to printMasai School, as many times as the number stored in the variablenum
+
+
+for (let i=1; i<=num;i++){
+        console.log("Masai School")
+    }
+  
+}
+
+
+
+
+
+// Loop 1 to N 
+Description
+
+You are given a number stored in a variable with the namenum
+
+You have to print all the numbers from 1 tonum, including num as well.
+
+
+
+for(let i=1; i<=num; i++){
+        console.log(i)
+    }
+    
+
+
+// From A to B 
+Description
+
+You are given two numbers, stored in variables with the following names
+
+max, min
+
+
+
+
+for(let i=min;i<max;i++){
+        console.log(i)
+    }
+    
+    
+}
+
+
+
+
+// Multiplication Table of N 
+Description
+
+Given a number, stored in the variable with the namenum
+
+Print the multiplication table of the value stored innum
+
+For example, if the value stored in
+
+
+
+
+   let a=0;
+    for(let i=1; i<=10 ;i++){
+        a=i*num;
+        console.log(a);
+    }
+    
+}
+
+
+
+
+
+
+// Move 2 Ahead 
+Description
+
+You are given a number, stored in a variable with the namenum
+
+Print all the odd numbers lesser than or equal to the value stored innum
+
+Only those numbers need to be printed which are greater than zero
+
+For example, given that the value stored innum = 12
+
+
+ for (let i=1; i<=num;i++){
+        if(!(i%2==0)){
+            console.log(i)
+        }
+    }
+    
+    
+}
+
+
+
+
+
+
+
+// Move 2 Ahead II
+Description
+
+You are given a number stored in a variable with the following name,num
+
+You have to print all the even numbers greater than zero, and less than or equal to the value stored innum
+
+For example, if the value stored innum = 13
+
+
+
+
+   for (let i=1;i<=num;i++){
+        if(i%2==0){
+            console.log(i);
+        }
+    }
+    
+}
+
+
+
+
+
+// Even Sum Below N 
+Description
+
+You are given a number, stored in a variable with the namenum
+
+Find the sum of all even numbers greater than zero, and less than or equal to the value stored innum
+
+For example, if the value stored innum = 5
+
+
+
+
+ let sum = 0;
+    for (let i=1;i<=num;i++){
+        if(i%2==0){
+            sum=sum+i;
+        }
+    }
+    console.log(sum);
+  
+}
+
+
+
+
+
+
+
+
+
+// Odd Sum Below N 
+Description
+
+You are given a number, stored in a variable with the namenum
+
+Find the sum of all odd numbers, greater than 0, and less than or equal to the value stored innum
+
+Finally, print the sum
+
+For example, if the value stored innum = 5
+
+
+
+
+
+
+
+    let sum=0;
+    for(let i=1;i<=num;i++){
+        if(!(i%2==0)){
+            sum=sum+i
+        }
+    }
+    console.log(sum);
+    
+}
+
+
+
+
+
+
+
+
+
+// Mod of 10 II 
+Description
+
+You are given a number stored in a variable with the namenum
+
+Find out the value obtained from the expressioni % 10, whereiconsists of all the values from 1 to the value stored innum, includingnum
+
+
+
+  let a=0;
+    for(let i=1 ; i<=num;i++){
+        a=i%10;
+        console.log(a);
+    }
+}
